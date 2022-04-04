@@ -13,30 +13,6 @@ A course project of Web Mining and Recommender System class at UCSD
     date: Date when the rating was entered.
     
     rating: The star rating.
-    
-`train Recipes.json.gz`
-
-Training data for the cook-time prediction task (CSE158 only), though the metadata could also be used for other tasks (since the recipe IDs match those in the interaction data). This file is json formatted, and contains the following fields:
-
-    name: Name of the recipe.
-    
-    minutes: Cook time in minutes (i.e., the target variable).
-    
-    contributor: id User that contributed the recipe.
-    
-    submitted: When was the recipe uploaded?
-    
-    steps: The recipe (steps are tab-separated).
-    
-    description: Short description of the recipe.
-    
-    ingredients: List of ingredients.
-    
-    recipe: id ID of the recipe (same as in the interaction data).
-
-`test Recipes.json.gz` 
-
-Test data associated with the cook-time prediction task. This data has the same format as above, with the ‘minutes’ (cook time) field removed.
 
 `stub Made.txt`
 
