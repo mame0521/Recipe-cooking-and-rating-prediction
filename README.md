@@ -1,4 +1,4 @@
-# Recipe-cooking-and-rating-rediction
+# Recipe-cooking-and-rating-prediction
 A course project of Web Mining and Recommender System class at UCSD
 
 ### Files
